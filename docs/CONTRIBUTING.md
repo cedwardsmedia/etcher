@@ -66,6 +66,7 @@ which can be installed by running `xcode-select --install`.
 ```sh
 git clone https://github.com/balena-io/etcher
 cd etcher
+git submodule update --init --recursive
 ```
 
 ### Installing npm dependencies
